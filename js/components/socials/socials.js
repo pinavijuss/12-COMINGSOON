@@ -15,4 +15,4 @@ function socials(selector, data) {
     DOM.innerHTML = HTML;
 }
 
-export { socials } 
+export { socials }
