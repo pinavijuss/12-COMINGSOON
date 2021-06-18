@@ -57,6 +57,29 @@
 
 /* MAIN CONTENT SECTION */
 
+main > .row-big > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.section-description {
+  font-size: 18px;
+  color: var(--color-grey);
+  line-height: 1.7em;
+}
+.section-description > a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+.section-description > a:hover {
+  text-decoration: underline;
+}
+
 /* FOOTER SECTION */
 footer.container {
   padding-top: 0;
@@ -68,7 +91,7 @@ footer.container {
   justify-content: center;
   flex-wrap: wrap;
   padding: 15px;
-  border-bottom: 1px solid var(--color-light);
+  border-bottom: 1px solid #fff3;
 }
 .socials > .fa {
   color: var(--color-light);
@@ -84,4 +107,40 @@ footer.container {
 .socials > .fa:hover {
   background-color: var(--color-light);
   color: var(--color-primary);
+}
+
+.bottom-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.row-small > .logoMatrox {
+  height: 80px;
+  width: 400px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.container > .bottom-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff8;
+}
+.container > .bottom-links a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer > .bottom-description {
+  align-items: center;
+}
+.bottom-description {
+  text-align: center;
+  color: #fff8;
 }
