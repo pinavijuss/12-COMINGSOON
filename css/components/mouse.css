@@ -1,0 +1,16 @@
+.mouse {
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  width: 30px;
+  border: 2px solid red;
+  border-radius: 15px;
+}
+
+.mouse > .dot {
+  display: inline-block;
+  margin-top: 7px;
+  height: 5px;
+  width: 2px;
+  background-color: red;
+}
