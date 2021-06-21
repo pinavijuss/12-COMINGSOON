@@ -1,10 +1,10 @@
 .mouse {
   display: inline-block;
   text-align: center;
-  height: 50px;
-  width: 30px;
-  border: 2px solid red;
-  border-radius: 15px;
+  height: 35px;
+  width: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
 
 .mouse > .dot {
@@ -12,5 +12,23 @@
   margin-top: 7px;
   height: 5px;
   width: 2px;
-  background-color: red;
+  border-radius: 1px;
+  background-color: #fff;
+  animation-name: judetizemyn;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes judetizemyn {
+  0% {
+    margin-top: 7px;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 18px;
+    opacity: 0;
+  }
 }
